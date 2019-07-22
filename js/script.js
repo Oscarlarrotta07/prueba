@@ -5,6 +5,17 @@ function siguiente() {
  $('.btn_siguiente_video').addClass('activo');
 }
 
+function siguienteVideo() {
+    $('.encuesta').removeClass('activo');
+    $('.video').addClass('activo');
+    $('.btn_siguiente_video').removeClass('activo');
+    $('.btn_siguiente_2').addClass('activo');
+
+}
+
 function siguientePos() {
-    $('.encuesta').addClass('inactivo');
+    $('.video').removeClass('activo');
+    $('.btn_siguiente_2').removeClass('activo');
+    $('.encuestaPos').addClass('activo'); 
+
 }
