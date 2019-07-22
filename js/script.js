@@ -3,3 +3,4 @@ function siguiente() {
  $('.encuesta').addClass('activo'); 
 
 }
+
