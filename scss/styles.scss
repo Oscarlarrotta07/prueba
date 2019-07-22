@@ -54,7 +54,7 @@ $azulroosevelt: #3580c4;
     height: 30px;
     border-radius: 8px;
     text-align: center;
-    margin: 32px 20px 32px;
+    margin: 32px 20px 64px;
     cursor: pointer;
     box-shadow: -3px 3px 0px 0px rgba(0,0,0,0.75);
     float: right;
@@ -71,6 +71,9 @@ $azulroosevelt: #3580c4;
       right: 33px;
       box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     } 
+    &.inactivo {
+      display: none;
+    }
   }
   .video {
     margin: 25px auto;
@@ -87,6 +90,38 @@ $azulroosevelt: #3580c4;
     display: none;
     iframe {
       width: 100vw;
+      margin-top: 50px;
+    }
+    &.inactivo {
+      display: none;
+    }
+  }
+  .btn_siguiente_video {
+    background-color: $azulroosevelt;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 32px 20px 64px;
+    display: none;
+    cursor: pointer;
+    box-shadow: -3px 3px 0px 0px rgba(0,0,0,0.75);
+    float: right;
+    p {
+      color: $blanco;
+      line-height: 30px;
+      font-family: sans-serif;
+      font-weight: 700;
+      padding: 0px 10px;
+    }
+    &:hover{
+    }
+    &:active{
+      bottom: -68px;
+      right: 33px;
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+    } 
+    &.inactivo {
+      display: none;
     }
   }
 }
