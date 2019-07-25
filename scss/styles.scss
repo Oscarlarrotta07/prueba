@@ -1,6 +1,8 @@
 $rojoroosevelt: #ef4034;
 $blanco: #ffffff;
 $azulroosevelt: #3580c4;
+$verderoosevelt: #498b2a;
+
 * {
   margin: 0px;
   padding: 0px;
@@ -117,7 +119,7 @@ $azulroosevelt: #3580c4;
       box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     } 
   }
-  .btn_siguiente_2 {
+  .finalizar {
     background-color: $azulroosevelt;
     height: 30px;
     border-radius: 8px;
@@ -153,4 +155,22 @@ $azulroosevelt: #3580c4;
       display: inline;
     }
   }
+  .despedida{
+    display: none; 
+    &.activo {
+      display: inline;
+    }
+    p {
+      text-align: center;
+      color: $verderoosevelt;
+      font-family: sans-serif;
+      font-size: 30px;
+      width: auto;
+      margin: 30px 0;
+    }
+    img {
+      margin-left: calc((100vw - 336px)/2);
+    }
+  }
+
 }
