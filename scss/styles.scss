@@ -3,15 +3,15 @@ $blanco: #ffffff;
 $azulroosevelt: #3580c4;
 $verderoosevelt: #498b2a;
 
-* {
+* {  //Cuando hay asterisco aplica para todos los elementos de la estructura 
   margin: 0px;
   padding: 0px;
 }
 
 .capacitacion {
   max-width: 1000px;
-  margin: auto;
-  position: relative;
+  margin: auto; // centrar contenido
+  position: relative; 
   .inactivo {
     display: none;
   } 
@@ -58,7 +58,7 @@ $verderoosevelt: #498b2a;
     text-align: center;
     margin: 32px 20px 64px;
     cursor: pointer;
-    box-shadow: -3px 3px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: -3px 3px 0px 0px rgba(0,0,0,0.75); // sobra del boton 
     float: right;
     p {
       color: $blanco;
